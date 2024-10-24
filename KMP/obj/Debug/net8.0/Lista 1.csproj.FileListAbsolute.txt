@@ -1,0 +1,14 @@
+C:\Users\Rafał\RiderProjects\Lista1\Lista 1\bin\Debug\net8.0\Lista 1.exe
+C:\Users\Rafał\RiderProjects\Lista1\Lista 1\bin\Debug\net8.0\Lista 1.deps.json
+C:\Users\Rafał\RiderProjects\Lista1\Lista 1\bin\Debug\net8.0\Lista 1.runtimeconfig.json
+C:\Users\Rafał\RiderProjects\Lista1\Lista 1\bin\Debug\net8.0\Lista 1.dll
+C:\Users\Rafał\RiderProjects\Lista1\Lista 1\bin\Debug\net8.0\Lista 1.pdb
+C:\Users\Rafał\RiderProjects\Lista1\Lista 1\obj\Debug\net8.0\Lista 1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rafał\RiderProjects\Lista1\Lista 1\obj\Debug\net8.0\Lista 1.AssemblyInfoInputs.cache
+C:\Users\Rafał\RiderProjects\Lista1\Lista 1\obj\Debug\net8.0\Lista 1.AssemblyInfo.cs
+C:\Users\Rafał\RiderProjects\Lista1\Lista 1\obj\Debug\net8.0\Lista 1.csproj.CoreCompileInputs.cache
+C:\Users\Rafał\RiderProjects\Lista1\Lista 1\obj\Debug\net8.0\Lista 1.dll
+C:\Users\Rafał\RiderProjects\Lista1\Lista 1\obj\Debug\net8.0\refint\Lista 1.dll
+C:\Users\Rafał\RiderProjects\Lista1\Lista 1\obj\Debug\net8.0\Lista 1.pdb
+C:\Users\Rafał\RiderProjects\Lista1\Lista 1\obj\Debug\net8.0\Lista 1.genruntimeconfig.cache
+C:\Users\Rafał\RiderProjects\Lista1\Lista 1\obj\Debug\net8.0\ref\Lista 1.dll

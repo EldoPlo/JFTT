@@ -1,0 +1,14 @@
+C:\Users\Rafał\RiderProjects\Lista1\KMP\bin\Debug\net8.0\KMP.exe
+C:\Users\Rafał\RiderProjects\Lista1\KMP\bin\Debug\net8.0\KMP.deps.json
+C:\Users\Rafał\RiderProjects\Lista1\KMP\bin\Debug\net8.0\KMP.runtimeconfig.json
+C:\Users\Rafał\RiderProjects\Lista1\KMP\bin\Debug\net8.0\KMP.dll
+C:\Users\Rafał\RiderProjects\Lista1\KMP\bin\Debug\net8.0\KMP.pdb
+C:\Users\Rafał\RiderProjects\Lista1\KMP\obj\Debug\net8.0\KMP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rafał\RiderProjects\Lista1\KMP\obj\Debug\net8.0\KMP.AssemblyInfoInputs.cache
+C:\Users\Rafał\RiderProjects\Lista1\KMP\obj\Debug\net8.0\KMP.AssemblyInfo.cs
+C:\Users\Rafał\RiderProjects\Lista1\KMP\obj\Debug\net8.0\KMP.csproj.CoreCompileInputs.cache
+C:\Users\Rafał\RiderProjects\Lista1\KMP\obj\Debug\net8.0\KMP.dll
+C:\Users\Rafał\RiderProjects\Lista1\KMP\obj\Debug\net8.0\refint\KMP.dll
+C:\Users\Rafał\RiderProjects\Lista1\KMP\obj\Debug\net8.0\KMP.pdb
+C:\Users\Rafał\RiderProjects\Lista1\KMP\obj\Debug\net8.0\KMP.genruntimeconfig.cache
+C:\Users\Rafał\RiderProjects\Lista1\KMP\obj\Debug\net8.0\ref\KMP.dll

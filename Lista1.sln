@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FA", "FA\FA.csproj", "{F44F0697-2496-4939-B2DE-6BAB63F2AE7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KMP", "KMP\KMP.csproj", "{9362FDE2-67EE-44DC-9A68-5C915B3DB961}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F44F0697-2496-4939-B2DE-6BAB63F2AE7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F44F0697-2496-4939-B2DE-6BAB63F2AE7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F44F0697-2496-4939-B2DE-6BAB63F2AE7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F44F0697-2496-4939-B2DE-6BAB63F2AE7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9362FDE2-67EE-44DC-9A68-5C915B3DB961}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9362FDE2-67EE-44DC-9A68-5C915B3DB961}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9362FDE2-67EE-44DC-9A68-5C915B3DB961}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9362FDE2-67EE-44DC-9A68-5C915B3DB961}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

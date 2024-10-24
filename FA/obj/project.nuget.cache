@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "CRoghZwo3cmFkh5zNfJNHcWn/2kZ3YqORc1Ju1mEHZfOzQWaJOhBZjY+yPBeMcFosUVDghnE+ARqEhoQOOuoMQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Rafał\\RiderProjects\\Lista1\\FA\\FA.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Rafał\\.nuget\\packages\\microsoft.net.sdk.compilers.toolset\\9.0.100-rc.2.24474.11\\microsoft.net.sdk.compilers.toolset.9.0.100-rc.2.24474.11.nupkg.sha512"
+  ],
+  "logs": []
+}

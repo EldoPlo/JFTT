@@ -1,0 +1,14 @@
+C:\Users\Rafał\RiderProjects\Lista1\FA\bin\Debug\net9.0\FA.exe
+C:\Users\Rafał\RiderProjects\Lista1\FA\bin\Debug\net9.0\FA.deps.json
+C:\Users\Rafał\RiderProjects\Lista1\FA\bin\Debug\net9.0\FA.runtimeconfig.json
+C:\Users\Rafał\RiderProjects\Lista1\FA\bin\Debug\net9.0\FA.dll
+C:\Users\Rafał\RiderProjects\Lista1\FA\bin\Debug\net9.0\FA.pdb
+C:\Users\Rafał\RiderProjects\Lista1\FA\obj\Debug\net9.0\FA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rafał\RiderProjects\Lista1\FA\obj\Debug\net9.0\FA.AssemblyInfoInputs.cache
+C:\Users\Rafał\RiderProjects\Lista1\FA\obj\Debug\net9.0\FA.AssemblyInfo.cs
+C:\Users\Rafał\RiderProjects\Lista1\FA\obj\Debug\net9.0\FA.csproj.CoreCompileInputs.cache
+C:\Users\Rafał\RiderProjects\Lista1\FA\obj\Debug\net9.0\FA.dll
+C:\Users\Rafał\RiderProjects\Lista1\FA\obj\Debug\net9.0\refint\FA.dll
+C:\Users\Rafał\RiderProjects\Lista1\FA\obj\Debug\net9.0\FA.pdb
+C:\Users\Rafał\RiderProjects\Lista1\FA\obj\Debug\net9.0\FA.genruntimeconfig.cache
+C:\Users\Rafał\RiderProjects\Lista1\FA\obj\Debug\net9.0\ref\FA.dll

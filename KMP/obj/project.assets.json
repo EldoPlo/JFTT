@@ -8,19 +8,19 @@
     "net9.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Rafał\\.nuget\\packages\\": {}
+    "/home/adam/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Rafał\\RiderProjects\\Lista1\\KMP\\KMP.csproj",
+      "projectUniqueName": "/home/adam/Pers/RafalProjects/JFTT/KMP/KMP.csproj",
       "projectName": "KMP",
-      "projectPath": "C:\\Users\\Rafał\\RiderProjects\\Lista1\\KMP\\KMP.csproj",
-      "packagesPath": "C:\\Users\\Rafał\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Rafał\\RiderProjects\\Lista1\\KMP\\obj\\",
+      "projectPath": "/home/adam/Pers/RafalProjects/JFTT/KMP/KMP.csproj",
+      "packagesPath": "/home/adam/.nuget/packages/",
+      "outputPath": "/home/adam/Pers/RafalProjects/JFTT/KMP/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Rafał\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/home/adam/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
@@ -38,6 +38,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "all"
       }
     },
     "frameworks": {
@@ -54,18 +59,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.Net.Sdk.Compilers.Toolset",
-            "version": "[9.0.100-rc.2.24474.11, 9.0.100-rc.2.24474.11]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-rc.2.24474.11/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/home/adam/.dotnet/sdk/9.0.100-rc.1.24452.12/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

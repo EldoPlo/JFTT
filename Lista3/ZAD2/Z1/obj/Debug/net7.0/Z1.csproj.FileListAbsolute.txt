@@ -1,0 +1,5 @@
+/mnt/c/Users/Rafał/Sem5/Jftt/Lista3/ZAD2/Z1/obj/Debug/net7.0/Z1.csproj.AssemblyReference.cache
+/mnt/c/Users/Rafał/Sem5/Jftt/Lista3/ZAD2/Z1/obj/Debug/net7.0/Z1.GeneratedMSBuildEditorConfig.editorconfig
+/mnt/c/Users/Rafał/Sem5/Jftt/Lista3/ZAD2/Z1/obj/Debug/net7.0/Z1.AssemblyInfoInputs.cache
+/mnt/c/Users/Rafał/Sem5/Jftt/Lista3/ZAD2/Z1/obj/Debug/net7.0/Z1.AssemblyInfo.cs
+/mnt/c/Users/Rafał/Sem5/Jftt/Lista3/ZAD2/Z1/obj/Debug/net7.0/Z1.csproj.CoreCompileInputs.cache

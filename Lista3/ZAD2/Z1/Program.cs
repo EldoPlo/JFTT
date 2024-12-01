@@ -1,6 +1,6 @@
 ﻿using Antlr4.Runtime;
 using System;
-using Z1;
+
 
 public class Program
 {
@@ -15,14 +15,15 @@ public class Program
             if (string.IsNullOrWhiteSpace(input)) continue;
 
             var inputStream = new AntlrInputStream(input);
-            var lexer = new Z1Lexer(inputStream);
+            var lexer = new z1Lexer(inputStream);
             var tokenStream = new CommonTokenStream(lexer);
-            var parser = new Z1Parser(tokenStream);
-
+            var parser = new z1Parser(tokenStream);
+            Console.WriteLine($"Parse tree: {parser.line().ToStringTree(parser)}");    
             var visitor = new EvalVisitor();
             try
             {
                 var result = visitor.Visit(parser.line());
+                Console.WriteLine($"Returned result from Visit: {result}");
                 Console.WriteLine($"= {result}");
             }
             catch (Exception ex)

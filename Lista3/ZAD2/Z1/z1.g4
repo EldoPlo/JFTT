@@ -14,7 +14,14 @@ RPAREN: ')';
 WS: [ \t\r\n]+ -> skip;
 
 // Parser rules
-line: expr EOF;
+start
+    :start line
+    | EOF?;
+    
+line
+    : ENDLINE #Nothing
+    | powexpr expr ENDLINE #Print
+    ;
 
 expr
     : expr ADD expr      # Add

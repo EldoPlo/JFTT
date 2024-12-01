@@ -1,54 +1,62 @@
 using System;
-using Z1;
+using Antlr4.Runtime;
 
-public class EvalVisitor : Z1BaseVisitor<int>
+
+public class EvalVisitor : z1BaseVisitor<int>
 {
     private const int BASE = 1234577;
-
-    public override int VisitAdd(Z1Parser.AddContext context)
+    
+   
+    public override int VisitAdd(z1Parser.AddContext context)
     {
+        Console.WriteLine($"Visiting Add: {context.GetText()}");
         var left = Visit(context.expr(0));
         var right = Visit(context.expr(1));
-        return Mod(left + right, BASE);
+        var result = Mod(left + right, BASE);
+        Console.WriteLine($"Add result: {left} + {right} = {result}");
+        return result;
     }
 
-    public override int VisitSubtract(Z1Parser.SubtractContext context)
+
+    public override int VisitSubtract(z1Parser.SubtractContext context)
     {
         var left = Visit(context.expr(0));
         var right = Visit(context.expr(1));
         return Mod(left - right, BASE);
     }
 
-    public override int VisitMultiply(Z1Parser.MultiplyContext context)
+    public override int VisitMultiply(z1Parser.MultiplyContext context)
     {
         var left = Visit(context.expr(0));
         var right = Visit(context.expr(1));
         return Mul(left, right, BASE);
     }
 
-    public override int VisitDivide(Z1Parser.DivideContext context)
+    public override int VisitDivide(z1Parser.DivideContext context)
     {
         var left = Visit(context.expr(0));
         var right = Visit(context.expr(1));
         return ModDiv(left, right);
     }
 
-    public override int VisitPower(Z1Parser.PowerContext context)
+    public override int VisitPower(z1Parser.PowerContext context)
     {
-        var baseValue = Visit(context.expr(0));
+        var baseValue = Visit(context.expr());
         var exp = Visit(context.powexpr());
         return ModPow(baseValue, exp);
     }
 
-    public override int VisitNegate(Z1Parser.NegateContext context)
+    public override int VisitNegate(z1Parser.NegateContext context)
     {
         var value = Visit(context.expr());
         return Mod(-value, BASE);
     }
 
-    public override int VisitNumber(Z1Parser.NumberContext context)
+    public override int VisitNumber(z1Parser.NumberContext context)
     {
-        return Mod(int.Parse(context.NUM().GetText()), BASE);
+        var num = int.Parse(context.NUM().GetText());
+        Console.WriteLine($"Parsed number: {num}");
+        return Mod(num, BASE);
     }
 
     private int Mul(int x, int y, int n)

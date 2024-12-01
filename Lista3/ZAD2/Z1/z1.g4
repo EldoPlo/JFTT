@@ -10,17 +10,18 @@ DIV: '/';
 POW: '^';
 LPAREN: '(';
 RPAREN: ')';
-
+ENDLINE: [\n];
 WS: [ \t\r\n]+ -> skip;
 
 // Parser rules
+
 start
     :start line
     | EOF?;
     
 line
     : ENDLINE #Nothing
-    | powexpr expr ENDLINE #Print
+    | expr ENDLINE #Print
     ;
 
 expr

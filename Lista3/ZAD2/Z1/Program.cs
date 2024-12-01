@@ -14,7 +14,7 @@ public class Program
             var input = Console.ReadLine();
             if (string.IsNullOrWhiteSpace(input)) continue;
 
-            var inputStream = new AntlrInputStream(input);
+            var inputStream = new AntlrInputStream(input + Environment.NewLine);
             var lexer = new z1Lexer(inputStream);
             var tokenStream = new CommonTokenStream(lexer);
             var parser = new z1Parser(tokenStream);
